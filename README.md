@@ -9,7 +9,6 @@ Scharvan is a beautifully designed web-based video calling application that offe
 - **Simple and Intuitive Interface**: Enjoy a user-friendly interface that is easy to navigate, creating a seamless user experience.
 - **Cross-Platform Compatibility**: Access Scharvan on various devices, including desktops, laptops, tablets, and smartphones.
 
-![Screenshot from 2023-06-20 18-41-56](https://github.com/Aaniranjan-Saraf/Scharvan/assets/97801096/8c718a18-6f0c-43d6-a5ee-f1c61dfaee8c)
 
 ## Installation and Usage
 
@@ -39,3 +38,5 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 
 I am excited to have you join us in experiencing the Scharvan video calling app. Let's embark on a journey of simplicity and seamless communication together! 📞🌟
+![Screenshot from 2023-06-20 18-43-25](https://github.com/Aaniranjan-Saraf/Scharvan/assets/97801096/8ceba698-2cc7-4add-b7e4-e58bcd1b3915)
+
