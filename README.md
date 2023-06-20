@@ -32,9 +32,6 @@ Contributions are highly valued and encouraged! If you encounter any issues or h
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT), allowing you to freely use, modify, and distribute the code in accordance with the license terms.
 
-## Acknowledgements
-
-- [Agora](https://www.agora.io/) for providing the powerful RTC SDK for seamless video calling functionality.
 
 ![Screenshot from 2023-06-20 18-43-25](https://github.com/Aaniranjan-Saraf/Scharvan/assets/97801096/8ceba698-2cc7-4add-b7e4-e58bcd1b3915)
 
