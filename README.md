@@ -19,8 +19,8 @@ Scharvan is a beautifully designed web-based video calling application that offe
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript, React.js
-- **Backend**: Node.js, Express.js
+- **Frontend**: HTML, CSS, JavaScript, Django
+- **Backend**: Node.js, Express.js, ngrok
 - **Video Calling Integration**: Agora SDK (Agora RTC SDK)
 
 ## Contribution
@@ -33,16 +33,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Acknowledgements
 
-We extend our gratitude to the following:
-
 - [Agora](https://www.agora.io/) for providing the powerful RTC SDK for seamless video calling functionality.
-- [Google Fonts](https://fonts.google.com/) for the fonts used in the project.
 
-## Contact
 
-For any inquiries or feedback, please reach out to the project maintainers:
-
-- John Doe - john@example.com
-- Jane Smith - jane@example.com
-
-We are excited to have you join us in experiencing the Scharvan video calling app, where simplicity and seamless communication take center stage! 📞🌟
+I am excited to have you join us in experiencing the Scharvan video calling app. Let's embark on a journey of simplicity and seamless communication together! 📞🌟
