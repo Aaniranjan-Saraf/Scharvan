@@ -52,7 +52,7 @@ body {
 }
 
 .form-field label {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.7em;
   color: #333;
 }
@@ -62,12 +62,12 @@ body {
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 10px;
-  font-size: 16px;
+  font-size: 18px;
   box-sizing: border-box;
 }
 
 .form-field input[type="submit"] {
-  background-color: #4b5dac;
+  background-color: #000000;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -75,7 +75,7 @@ body {
 }
 
 .form-field input[type="submit"]:hover {
-  background-color: #324a86;
+  background-color: #000000;
 }
 
 @media screen and (max-width: 450px) {
