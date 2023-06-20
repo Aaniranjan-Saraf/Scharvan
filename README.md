@@ -36,7 +36,8 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 - [Agora](https://www.agora.io/) for providing the powerful RTC SDK for seamless video calling functionality.
 
+![Screenshot from 2023-06-20 18-43-25](https://github.com/Aaniranjan-Saraf/Scharvan/assets/97801096/8ceba698-2cc7-4add-b7e4-e58bcd1b3915)
+
 
 I am excited to have you join us in experiencing the Scharvan video calling app. Let's embark on a journey of simplicity and seamless communication together! 📞🌟
-![Screenshot from 2023-06-20 18-43-25](https://github.com/Aaniranjan-Saraf/Scharvan/assets/97801096/8ceba698-2cc7-4add-b7e4-e58bcd1b3915)
 
