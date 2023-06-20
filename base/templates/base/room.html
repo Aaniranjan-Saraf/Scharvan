@@ -1,0 +1,79 @@
+{% extends 'base/main.html' %} {% load static %} {% block content %}
+
+<main>
+  <section id="room-name-wrapper">
+    <p>Room Name: <span id="room-name"></span></p>
+  </section>
+  
+  <section id="video-streams">
+   
+  </section>
+
+  <section id="controls-wrapper">
+    
+    <div class="icon-wrapper">
+      <img
+        class="control-icon"
+        id="mic-btn"
+        src="{% static 'images/microphone.svg' %}"
+      />
+    </div>
+
+    <div class="icon-wrapper">
+      <img
+        class="control-icon"
+        id="camera-btn"
+        src="{% static 'images/video.svg' %}"
+      />
+    </div>
+
+    <div class="icon-wrapper">
+      <img
+        class="control-icon"
+        id="leave-btn"
+        src="{% static 'images/leave.svg' %}"
+      />
+    </div>
+
+  </section>
+
+
+</main>
+
+<script
+  type="text/javascript"
+  src="{% static 'assets/AgoraRTC_N-4.8.0.js' %}"
+></script>
+<script type="text/javascript" src="{% static 'js/streams.js' %}"></script>
+
+<script>
+  function addVideoStream(streamId) {
+    const streamContainer = document.createElement("div");
+    streamContainer.id = streamId;
+    streamContainer.classList.add("stream-container");
+
+    const videoElement = document.createElement("video");
+    videoElement.id = `video_${streamId}`;
+    videoElement.autoplay = true;
+    videoElement.muted = true;
+
+    streamContainer.appendChild(videoElement);
+    document.getElementById("video-streams").appendChild(streamContainer);
+
+    const player = AgoraRTC.createPlayer();
+    player.init(streamId);
+    player.play(`video_${streamId}`);
+
+    player.on("first-video-frame-decoded", () => {
+      const videoTrack = player.videoTrack();
+      const trackContainer = document.getElementById(`video_${streamId}`);
+      if (videoTrack && trackContainer) {
+        trackContainer.style.width = "100%";
+        trackContainer.style.height = "100%";
+        videoTrack.play(trackContainer);
+      }
+    });
+  }
+</script>
+
+{% endblock content %}

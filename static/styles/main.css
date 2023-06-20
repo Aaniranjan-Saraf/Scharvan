@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
+:root {
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+body {
+  background-color: #202124;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Register Page */
+
+#form-container {
+  width: 400px;
+  box-shadow: var(--shadow);
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#logo {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+
+#welcome-message {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#welcome-message h1 {
+  font-size: 36px;
+  color: #333;
+  font-weight: 500;
+}
+
+#welcome-message p {
+  font-size: 16px;
+  color: #777;
+  font-weight: 300;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  font-size: 16px;
+  line-height: 1.7em;
+  color: #333;
+}
+
+.form-field input {
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-field input[type="submit"] {
+  background-color: #4b5dac;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-field input[type="submit"]:hover {
+  background-color: #324a86;
+}
+
+@media screen and (max-width: 450px) {
+  #form-container {
+    width: 95%;
+  }
+
+  #welcome-message h1 {
+    font-size: 24px;
+  }
+}
+
+/* Room Styling */
+
+#room-name-wrapper {
+  text-align: center;
+  font-size: 18px;
+  color: #f2eded;
+  margin-bottom: 20px;
+}
+
+#video-streams {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.video-container {
+  flex-basis: 900px; /* Adjust the size to your preference */
+  max-height: 100%;
+  max-width: 80%;
+  border: 1px solid #333;
+  border-radius: 20;
+  margin: 10px;
+  background-color: #0d0e12;
+
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.video-player {
+  height: 100%;
+  width: 100%;
+  padding-bottom: calc(
+    75%
+  ); /* Set the aspect ratio (height divided by width) */
+  border-radius: 10px;
+  transform: scaleX(-1); /* Add this line */
+}
+.username-wrapper {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1650px) {
+  .video-container {
+    flex-basis: 500px;
+  }
+}
+
+/* Room Styling | Controls */
+
+#controls-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  column-gap: 1em;
+  position: fixed;
+  bottom: 20px;
+}
+
+.control-icon {
+  height: 20px;
+  width: 20px;
+  box-shadow: var(--shadow);
+  background-color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#leave-btn {
+  background-color: #ff5050;
+  transition: background-color 0.3s ease;
+}
+
+#leave-btn:hover {
+  background-color: #ff3030;
+}
