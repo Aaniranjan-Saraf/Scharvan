@@ -34,7 +34,8 @@ Contributions are highly valued and encouraged! If you encounter any issues or h
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT), allowing you to freely use, modify, and distribute the code in accordance with the license terms.
 
 
-![Screenshot from 2023-06-20 18-43-25](https://github.com/Aaniranjan-Saraf/Scharvan/assets/97801096/8ceba698-2cc7-4add-b7e4-e58bcd1b3915)
+![image](https://github.com/Aaniranjan-Saraf/Scharvan/assets/97801096/56575b29-1627-4c74-87a9-091e76845be5)
+
 
 
 I am excited to have you join us in experiencing the Scharvan video calling app. Let's embark on a journey of simplicity and seamless communication together! 📞🌟
