@@ -14,9 +14,10 @@ Scharvan is a beautifully designed web-based video calling application that offe
 
 1. Clone the repository: `git clone https://github.com/Aaniranjan-Saraf/Scharvan.git`
 2. Install the required dependencies: `npm install`
-3. Start the development server: `npm start`
-4. Access the application in your web browser at `http://localhost:3000`
-5. Achieve seamless connectivity by leveraging ngrok server to expose the port (3000) and effortlessly share the corresponding URL with anyone.
+3. Start the development server: `python manage.py runserver`
+4. Access the application in your web browser at `http://127.0.0.1:8000/`
+5. Achieve seamless connectivity by leveraging [ngrok]([url](https://ngrok.com/download)) server to expose the port (localhost) and effortlessly share the corresponding URL with anyone.
+  - ngrok http <port>
 
 ## Technologies Used
 
